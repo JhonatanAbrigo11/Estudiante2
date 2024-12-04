@@ -6,7 +6,7 @@ export const Product = ({navigation}) =>{
         <Button
             title='HOME'
             onPress={()=>{
-                navigation.navigate('HomeNav');
+                navigation.navigate('WellcomeNav');
             }}
         />
         <Text style={{fontWeight: "100",color: "yellow"}}>Tomate</Text>
