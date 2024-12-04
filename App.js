@@ -1,10 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { Home } from './app/screens/HomeScreen'
-import { Contacts } from './app/screens/ContactsScreen'
-import { Product } from './app/screens/Product'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StyleSheet } from 'react-native';
+import { Contacts } from './app/screens/ContactsScreen';
+import { Home } from './app/screens/HomeScreen';
+import { Product } from './app/screens/Product';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,9 +12,9 @@ export default function App() {
     <NavigationContainer>
 
       <Stack.Navigator>
-        <Stack.Screen name='WellcomeNav' component={Home} />
+        <Stack.Screen name='WelcomBrandon' component={Home} />
         <Stack.Screen name='ContactsNav' component={Contacts} />
-        <Stack.Screen name='ProductNav' component={Product}/>
+        <Stack.Screen name='ProductNavigation' component={Product}/>
 
 
       </Stack.Navigator>
