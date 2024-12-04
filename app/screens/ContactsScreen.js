@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, Button} from 'react-native'
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export const Contacts = ({navigation}) => {
     return <View style={styles.container}>
@@ -6,7 +6,7 @@ export const Contacts = ({navigation}) => {
         <Button
             title='HOME'
             onPress={()=>{
-                navigation.navigate('HomeNav');
+                navigation.navigate('WelcomBrandon');
             }}
         />
     </View>

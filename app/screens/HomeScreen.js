@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Button } from 'react-native'
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export const Home = ({ navigation }) => {
     return <View style={styles.container}>
@@ -21,7 +21,7 @@ export const Home = ({ navigation }) => {
             <Button
                 title='PRODUCTOS'
                 onPress={() => {
-                    navigation.navigate('ProductNav');
+                    navigation.navigate('ProductNavigation');
                 }}
             />
 
